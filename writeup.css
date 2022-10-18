@@ -1,19 +1,25 @@
 h1 {
     text-align: left;
     width: 48rem;
-    font-family: Georgia;
-    font-weight: bold;
+    font-family: fantasy;
+    font-weight: lighter;
     font-size: 2rem;
-    color: #5C5577;
+    color: #262628;
+    margin: 0;
 }
 
 h2 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
+    font-weight: lighter;
+    font-family: fantasy;
+    color: #1b4945;
+    margin: 0;
 }
 
-p {
+p, li {
     text-align: left;
+    font-family: sans-serif;
 }
 
 ul {
@@ -21,8 +27,8 @@ ul {
 }
 
 body {
-    margin-left: 16rem;
-    margin-right: 16rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
     background-clip: content-box;
 }
 
@@ -40,10 +46,53 @@ img{
     margin: auto;
 }
 
-.wireframes {
+.img_caption, .wireframes {
     text-align: center;
+    font-family: Oswald, sans-serif;
+    font-weight: bold;
 }
 
-.img_caption {
-    text-align: center;
+
+.top_bar {
+    background-color: #d3deec;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.block1 {
+    background-color: #f6f4e3;
+    padding: 1rem 1rem;
+}
+
+.block2 {
+    background-color: #e7f8f3;
+    padding: 1rem 1rem;
+}
+
+.block3 {
+    background-color: #baf3f3;
+    padding: 1rem 1rem;
+}
+
+.block4 {
+    background-color: #ffffe0;
+    padding: 1rem 1rem;
+}
+
+.block5 {
+    background-color: #ffe0f6;
+    padding: 1rem 1rem;
+}
+
+.list_header {
+    font-size: 1.5rem;
+    font-family: Oswald, sans-serif;
+    font-weight: bold;
+    color: #172120;
+}
+
+.list_sub, p {
+    font-size: 1.25rem;
+    font-weight: lighter;
+    color: #112d2b
 }
