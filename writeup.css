@@ -26,12 +26,6 @@ ul {
     text-align: left;
 }
 
-body {
-    margin-left: 8rem;
-    margin-right: 8rem;
-    background-clip: content-box;
-}
-
 .image {
     width: 20rem;
     height: 18rem;
@@ -81,6 +75,11 @@ img{
 
 .block5 {
     background-color: #ffe0f6;
+    padding: 1rem 1rem;
+}
+
+.block6 {
+    background-color: #fff9b9;
     padding: 1rem 1rem;
 }
 
